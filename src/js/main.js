@@ -39,7 +39,7 @@
         });
 
         var audioCtx;
-        var audioSrc = 'audio/es_intrepid_dye_o.mp3';
+        var audioSrc = 'audio/The Rolling Stones - Sympathy For The Devil.mp3';
         var source;
         var buffer;
 
