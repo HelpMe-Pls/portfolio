@@ -1,6 +1,6 @@
 {
-    "name": "alexrodin.info",
-    "version": "0.0.1",
+    "name": "khoile-portfolio",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "start": "grunt server",

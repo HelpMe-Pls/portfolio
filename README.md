@@ -5,11 +5,16 @@ This is my portfolio and it is heavily inspired by [this project](https://github
 Visit the [live demo]() and let curiosity be your guide.
 <div align="center">
     <p align="center">
-        <a href="http://alexrodin.info">
+        <a href="https://helpme-pls.github.io/portfolio/">
             <img src="./docs/demo.gif" width="500" />
         </a>
     </p>
 </div>
+
+## Caveats
+The page will play a song after your first click/touch on the screen, so watch your volume before trying. And also, it plays on repeat and I haven't yet developed a feature to pause/stop the song and adjust the volume. 
+
+The visual effects may not look as smooth as expected if you're viewing the page on a low-end device.  
 
 # Installation
 In case you want to run the app locally, make sure to have the same environment as I do to get it working properly. Please download and install these 2 softwares (if you don't have them already):
@@ -39,6 +44,12 @@ cd dist
 npm start
 ```
 Open http://localhost:3060 to view it in the browser.
+
+# Planned development
+- Add more songs.
+- Add the song's control panel (pause/stop, volume, skipping back and forth) and short keys bindings to show/hide it.
+- Add light theme.
+- Update `sass` to be compatible with the latest `node` version.
 
 # Contributing
 Pull requests are most welcome. For breaking changes suggestion, please open an issue first to discuss what you would like to change/improve.
