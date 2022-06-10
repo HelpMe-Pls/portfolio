@@ -128,7 +128,7 @@ h2.transition-in [class^="letter"] {
   font-weight: 300;
   color: #76747a;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-smoothing: subpixel-antialiased; }
+  font-smooth: subpixel-antialiased; }
 
 #container p strong {
   color: #b3abc5; }

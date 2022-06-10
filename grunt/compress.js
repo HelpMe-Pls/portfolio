@@ -1,7 +1,7 @@
 module.exports = {
     dist: {
         options: {
-            archive: './dist/alexrodin.info.tar.gz',
+            archive: './dist/khoile99.tar.gz',
             mode: 'tgz'
         },
         files: [

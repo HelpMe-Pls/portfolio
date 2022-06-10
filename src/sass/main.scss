@@ -40,29 +40,50 @@ body {
 
 
 h1 {
-  font-size: 1.9em;
-  letter-spacing: 0.35em;
+  font-size: 1.5em;
+  margin-bottom: -0.8em;
+  letter-spacing: 0.15em;
 }
 
 h2 {
-  font-size: 0.9em;
-  letter-spacing: 0.5em;
+  font-size: 0.65em;
+  letter-spacing: 0.35em;
 }
 
 html, body, #h3, #h4, #h5 {
   font-size: 0.7em/1.4;
-  letter-spacing: 0.2em;
+  line-height: 2.5;
+  letter-spacing: 0.05em;
 }
 
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops and desktops */
+// for typical mobile devices
+@media only screen and (min-width: 375px){
   h1 {
-    font-size: 2.75em;
-    letter-spacing: 0.35em;
+    font-size: 2em;
+    letter-spacing: 0.2em;
   }
 
   h2 {
-    font-size: 1.45em;
+    font-size: 0.95em;
+    letter-spacing: 0.3em;
+  }
+
+  #h3, #h4, #h5 {
+    font-size: 0.69em;
+    line-height: 2;
+    letter-spacing: 0.125em;
+  }
+}
+
+// tablet, landscape iPad, lo-res laptops and desktops 
+@media only screen and (min-width: 768px) {  
+  h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.25em;
+  }
+
+  h2 {
+    font-size: 0.95em;
     letter-spacing: 0.5em;
   }
 
@@ -73,7 +94,26 @@ html, body, #h3, #h4, #h5 {
   }
 }
 
-//TODO: Add @media for mobile devices
+// for big screens: this looks good
+@media only screen and (min-width: 1024px) {  
+  h1 {
+    font-size: 2.75em;
+    letter-spacing: 0.35em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.5em;
+  }
+
+  #h3, #h4, #h5 {
+    font-size: 0.85em;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+  }
+}
+
+
 
 h1 {
   font-family: 'Cinzel', serif;
@@ -199,7 +239,7 @@ h2.transition-out [class^="letter"] {
   font-weight: 300;
   color: #76747a;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-smoothing: subpixel-antialiased;
+  font-smooth: subpixel-antialiased;
 }
 
 #container p strong {
