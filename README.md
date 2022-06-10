@@ -1,70 +1,46 @@
-```typescript
-//TODO: Update `screen.gif` 
-```
+# Introduction
+This is my portfolio and it is heavily inspired by [this project](https://github.com/nidorx/alexrodin.info).
+
+## Usage
+Visit the [live demo]() and let curiosity be your guide.
 <div align="center">
-    <h1>http://alexrodin.info</h1>
     <p align="center">
         <a href="http://alexrodin.info">
-            <img src="./docs/screen.gif" width="500" />
+            <img src="./docs/demo.gif" width="500" />
         </a>
     </p>
 </div>
 
-## Inspiração
+# Installation
+In case you want to run the app locally, make sure to have the same environment as I do to get it working properly. Please download and install these 2 softwares (if you don't have them already):
+1.  **nvm-setup.zip** from its [latest release](https://github.com/coreybutler/nvm-windows/releases)
+2.  [Git](https://git-scm.com/downloads)
 
-A página é inspirada e baseada nos experimentos de [Nik Rowell](http://www.nikrowell.com/projects/ultraviolet) e [Pavel Dobryakov](http://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
+Then open up your terminal with **Admin privilege** and run the following commands:
+1. `nvm install 12.18.3` 
+2. `nvm use 12.18.3` 
+3. `node -v` (the output should be `v12.18.3`)
+4. Pick a folder of your choice, or create an empty folder and then `cd path-to-that-folder`
+5. `git clone https://github.com/HelpMe-Pls/portfolio.git`
+6. `cd portfolio`
 
-
-## Pre requisitos
-
-- Node.js (npm)
-
-## Servidor local
-
-Inicia servidor local para desenvolvimento, com live reload, abre automaticamente o navegador no endereço `localhost:8080`.
-
+To run in development mode:
 ```bash
 npm install
 npm start
 ```
-
-### Controles
-
-Para exigir os controles do [dat.GUI](https://github.com/dataarts/dat.gui), altere a linha `78` do `index.html`, de `<!--<script src="js/dat.gui.min.js"></script>-->` para `<script src="js/dat.gui.min.js"></script>`
-
-## Construção da versão de publicação
-
-Ao executar o comando abaixo, a versão final estará disponível na pasta `dist`, lá estará disponível também o conteúdo da pasta compactada no formato `tar.gz`, que uso para publicação no meu ambiente.
+Open http://localhost:9000 to view it in the browser.
 
 
+To run the built version:
 ```bash
 npm run-script build
-```
-
-## Publicação da versão de produção
-
-A versão final, disponível na pasta `dist` pode ser executada com os comandos abaixo
-
-```bash
 cd dist
 npm start
 ```
+Open http://localhost:3060 to view it in the browser.
 
-O script fará a instalação das dependencias de produção e inicializa o servidor na porta `3060`.
+# Contributing
+Pull requests are most welcome. For breaking changes suggestion, please open an issue first to discuss what you would like to change/improve.
 
-
-
-## Outras informações
-
-- Problemas com node-gyp no Windows? `npm install --global windows-build-tools`
-- Problemas com node-gyp no Ubuntu/Debian? `sudo apt-get install gcc g++ make` 
-- [https://www.favicon-generator.org](https://www.favicon-generator.org) Usado para gerar o favicon
-- [http://www.mp3smaller.com](http://www.mp3smaller.com) Usado para reduzir o tamanho do arquivo de áudio (Usei a opção: `Small File Size (MP3 Bitrate 32-64Kbps VBR)`)
-- [https://www.screentogif.com](https://www.screentogif.com) Usado para gravar o gif no topo dessa documentação.
-
-> NOTA! No windows, execute o comando acima usando o PowerShell como Administrador
-
-
-## Licença
-
-Este código é distribuído sob os termos e condições da [licença MIT](LICENSE).
+[Contact me](https://www.facebook.com/messages/t/100005341874318) if you need further support.
