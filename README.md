@@ -12,7 +12,7 @@ Visit the [live demo](https://helpme-pls.github.io/portfolio) and let curiosity 
 </div>
 
 ## Caveats
-The page will play a song after your first click/touch on the screen, so watch your volume before trying. And also, it plays on repeat and I haven't yet developed a feature to pause/stop the song and adjust the volume. 
+The page will play a song after your first click/touch on the screen, so be mindful of your volume before trying. By the way, it plays on repeat and I haven't yet developed a feature to pause/stop the song or adjust the volume. 
 
 The visual effects may not look as smooth as expected if you're viewing the page on a low-end device.  
 
