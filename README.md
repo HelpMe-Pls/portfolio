@@ -2,7 +2,7 @@
 This is my portfolio and it is heavily inspired by [this project](https://github.com/nidorx/alexrodin.info).
 
 ## Usage
-Visit the [live demo]() and let curiosity be your guide.
+Visit the [live demo](https://helpme-pls.github.io/portfolio) and let curiosity be your guide.
 <div align="center">
     <p align="center">
         <a href="https://helpme-pls.github.io/portfolio/">
